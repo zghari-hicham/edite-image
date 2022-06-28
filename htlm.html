@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ edite</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="continer">
+    <div class="images">
+        <div class="imgbox">
+            <img id="img">
+        </div>
+        <canvas id="canvas"> </canvas>
+        <div class="uploade">
+            <label for="uploade">uploade</label>
+            <input type="file" id="uploade">
+        </div>
+    </div>
+
+
+
+    <div class="filter">
+<ul>
+    <li>
+        <label for="saturate">saturate</label>
+        <input type="range" id="saturate" min="0" max="200" value="100">
+    </li>
+    <li>
+        <label for="constrast">constrast</label>
+        <input type="range" id="constrast" min="0" max="200" value="100">
+    </li>
+    <li>
+        <label for="brightness">brightness</label>
+        <input type="range" id="brightness" min="0" max="200" value="100">
+    </li>
+    <li>
+        <label for="sepia">sepia</label>
+        <input type="range" id="sepia" min="0" max="200" value="0">
+    </li>
+    <li>
+        <label for="grayscale">grayscale</label>
+        <input type="range" id="grayscale" step="0.1" min="0" max="1" value="0">
+    </li>
+    <li>
+        <label for="blur">blur</label>
+        <input type="range" id="blur" step="0.1" min="0" max="10" value="0">
+    </li>
+    <li>
+        <label for="hue-rotate">hue-rotate</label>
+        <input type="range" id="hue-rotate"  min="0" max="320" value="0">
+    </li>
+    <li>
+    <a  download="image" id="dowland"> dowland</a>
+    <span>reset</span>
+</li>
+
+</ul>
+
+
+
+    </div>
+</div>
+
+
+
+
+    <script src="/js.js"></script>
+</body>
+</html>
